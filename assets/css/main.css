@@ -1661,9 +1661,7 @@ input, select, textarea {
 		}
 
 .fixed-element {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
+	position: sticky;
 	padding: 15px 20px;
 	z-index: 1000;
 	cursor: pointer;
