@@ -6,7 +6,7 @@
 -->
 <html lang="en">
 <head>
-    <title>Dimension by HTML5 UP</title>
+    <title>Chun Lin Photography</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
@@ -21,24 +21,29 @@
 
     <!-- Header -->
     <header id="header">
-        <div class="logo">
-            <span class="icon fa-gem"></span>
-        </div>
         <div class="content">
             <div class="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and
-                    released<br/>
-                    for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Chun Lin Photography</h1>
+                <p>I started doing photography since 2020 after I bought my first camera, the Ricoh GRiii. Soon after, I
+                    got the Fujifilm XT4 and then the Fujifilm GFX 50Sii in late 2025. Most of the pictures you will
+                    find are my personal photos from vacations, trips, outings, etc. A few were paid shoots. I regret
+                    not documenting my life more, not going out enough, and not being creative enough when I was young.
+                    Photography has been a great push for me to do more and romanticize my life as well as the lives of
+                    my family and friends and hopefully, you as well. I would love to meet other photographers so we can
+                    go on photography-focused trips/walks/events together. I would also love to meet people who want to
+                    model
+                    and work with me as well as anyone who wants a paid session for whatever focus they desire. My
+                    editing style depends on what I am shooting for. A large part of my works is to document my life, so
+                    the editing leans on how I remember the scene plus light changes (no photoshop/AI/removing/adding
+                    items). I hope you enjoy my work and
+                    please, feel free to
+                    reach out!</p>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="#intro">Intro</a></li>
                 <li><a href="#work">Work</a></li>
-                <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <!--<li><a href="#elements">Elements</a></li>-->
             </ul>
         </nav>
     </header>
@@ -47,7 +52,7 @@
     <div id="main">
 
         <!-- Intro -->
-        <article id="intro">
+        <!--<article id="intro">
             <h2 class="major">Intro</h2>
             <span class="image main"><img src="images/pic01.jpg" alt=""/></span>
             <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue.
@@ -61,92 +66,1035 @@
                 mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et
                 netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque
                 aliquam maximus risus, vel sed vehicula.</p>
-        </article>
+        </article>-->
 
         <!-- Work -->
         <article id="work">
-            <div class="fixed-element">
-                <h2 class="major | fixed-element">Work</h2>
-                <button class="primary" onclick="myFunction('landscapes')" >Landscapes</button>
-                <button onclick="myFunction('misc')">Misc</button>
-                <button onclick="myFunction('life')">Life</button>
+            <div class="fixed-element" style="background-color: rgba(27, 31, 34, 1);">
+                <h1 class="major | fixed-element">Work</h1>
+                <button class="primary" onclick="myFunction('landscapes', this)">Landscapes</button>
+                <button class="primary" onclick="myFunction('humans', this)">Humans</button>
+                <button class="primary" onclick="myFunction('animals', this)">Animals</button>
+                <button class="primary" onclick="myFunction('life', this)">Life</button>
+                <button class="primary" onclick="myFunction('misc', this)">Misc</button>
+                <div class="close" onclick="onClose()"></div>
             </div>
 
             <div id="landscapes">
-                <span class="image main">
-                <img src="https://live.staticflickr.com/65535/54901311492_f0d93b1306_b.jpg" alt=""/></span>
-                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.
-                    Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer
-                    sollicitudin
-                    mauris nec lorem luctus ultrices.</p>
-                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna
-                    sed
-                    nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet
-                    massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                    Vivamus
-                    et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-            </div>
-            <div id="misc">
-                <span class="image main">
-                <img src="https://live.staticflickr.com/65535/54901311492_f0d93b1306_b.jpg" alt=""/></span>
-                <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac.
-                    Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer
-                    sollicitudin
-                    mauris nec lorem luctus ultrices.</p>
-                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna
-                    sed
-                    nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet
-                    massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                    Vivamus
-                    et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
-            </div>
-            <div id="life">
-                <div>
-                    <span class="image main">
-                <img src="https://live.staticflickr.com/65535/54901311492_f0d93b1306_b.jpg" alt=""/></span>
-                    <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet
-                        ac.
-                        Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer
-                        sollicitudin
-                        mauris nec lorem luctus ultrices.</p>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna
-                        magna
-                        sed
-                        nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas
-                        laoreet
-                        massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                        Vivamus
-                        et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+                <h2 class="title">Landscapes</h2>
+                <div class="flex-container">
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902490125/in/album-72177720330099660/"
+                       title="Copper Breaks State Park Trip"><img
+                            src="https://live.staticflickr.com/65535/54902490125_3b72c81668_b.jpg"
+                            alt="Copper Breaks State Park Trip"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489770/in/album-72177720330099660/"
+                       title="Big Bend"><img src="https://live.staticflickr.com/65535/54902489770_39ebb3f648_b.jpg"
+                                             alt="Big Bend"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906702844/in/album-72177720330099660/"
+                       title="Naxos"><img src="https://live.staticflickr.com/65535/54906702844_7862fb7984_b.jpg"
+                                          alt="Naxos"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902434014/in/album-72177720330099660/"
+                       title="Caddo Lake"><img src="https://live.staticflickr.com/65535/54902434014_0222d3769b_b.jpg"
+                                               alt="Caddo Lake"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906703244/in/album-72177720330099660/"
+                       title="Side Rock"><img src="https://live.staticflickr.com/65535/54906703244_7892ec9af2_b.jpg"
+                                              alt="Side Rock"/></a>
+
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906678688/in/album-72177720330099660/"
+                       title="Over These Rocks"><img
+                            src="https://live.staticflickr.com/65535/54906678688_864ecb0983_b.jpg"
+                            alt="Over These Rocks"/></a>
+
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906678708/in/album-72177720330099660/"
+                       title="Moon Rock"><img src="https://live.staticflickr.com/65535/54906678708_b07d600aef_b.jpg"
+                                              alt="Moon Rock"/></a>
+
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906451986/in/album-72177720330099660/"
+                       title="Pool and Desert"><img
+                            src="https://live.staticflickr.com/65535/54906451986_6c86bc1c53_b.jpg"
+                            alt="Pool and Desert"/></a>
+
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906703179/in/album-72177720330099660/"
+                       title="Joshua Tree"><img src="https://live.staticflickr.com/65535/54906703179_864ecb0983_b.jpg"
+                                                alt="Joshua Tree"/></a>
+
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906762160/in/album-72177720330099660/"
+                       title="Joshua Tree"><img src="https://live.staticflickr.com/65535/54906762160_0dcc7ab4c0_b.jpg"
+                                                alt="Joshua Tree"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906451816/in/album-72177720330099660/"
+                       title="Joshua Tree"><img src="https://live.staticflickr.com/65535/54906451816_c1f71189e2_b.jpg"
+                                                alt="Joshua Tree"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906451796/in/album-72177720330099660/"
+                       title="Blue"><img src="https://live.staticflickr.com/65535/54906451796_64e5acd37f_b.jpg"
+                                         alt="Blue"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906678463/in/album-72177720330099660/"
+                       title="New Mexico Dunes"><img
+                            src="https://live.staticflickr.com/65535/54906678463_3c1ae8ae25_b.jpg"
+                            alt="New Mexico Dunes"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906703634/in/album-72177720330099660/"
+                       title="Plane River"><img src="https://live.staticflickr.com/65535/54906703634_65cca1c2a0_b.jpg"
+                                                alt="Plane River"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906762650/in/album-72177720330099660/"
+                       title="Red Earth"><img src="https://live.staticflickr.com/65535/54906762650_bc5c7315a6_b.jpg"
+                                              alt="Red Earth"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906679068/in/album-72177720330099660/"
+                       title="Plane River"><img src="https://live.staticflickr.com/65535/54906679068_ed5e5382cc_b.jpg"
+                                                alt="Plane River"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906452326/in/album-72177720330099660/"
+                       title="Plane River"><img src="https://live.staticflickr.com/65535/54906452326_747c307990_b.jpg"
+                                                alt="Plane River"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906678953/in/album-72177720330099660/"
+                       title="Rainbow from Plane"><img
+                            src="https://live.staticflickr.com/65535/54906678953_61435296b3_b.jpg"
+                            alt="Rainbow from Plane"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906678943/in/album-72177720330099660/"
+                       title="Rainbow from Plane"><img
+                            src="https://live.staticflickr.com/65535/54906678943_ddbf1f35a9_b.jpg"
+                            alt="Rainbow from Plane"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906703389/in/album-72177720330099660/"
+                       title="Hawaii Rainbow"><img
+                            src="https://live.staticflickr.com/65535/54906703389_bdcbf51c29_b.jpg"
+                            alt="Hawaii Rainbow"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906678958/in/album-72177720330099660/"
+                       title="Hawaii Clouds"><img src="https://live.staticflickr.com/65535/54906678958_976ba870a0_b.jpg"
+                                                  alt="Hawaii Clouds"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905579317/in/album-72177720330099660/"
+                       title="Hawaii Mountain"><img
+                            src="https://live.staticflickr.com/65535/54905579317_5cede7fc8f_b.jpg"
+                            alt="Hawaii Mountain"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905579057/in/album-72177720330099660/"
+                       title="Arkansas Boat"><img src="https://live.staticflickr.com/65535/54905579057_b05476b4dd_b.jpg"
+                                                  alt="Arkansas Boat"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181596/in/album-72177720330099660/"
+                       title="Arkansas"><img src="https://live.staticflickr.com/65535/54902181596_d5cf8f6609_b.jpg"
+                                             alt="Arkansas"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905578447/in/album-72177720330099660/"
+                       title="Big Bend"><img src="https://live.staticflickr.com/65535/54905578447_2c9886981f_b.jpg"
+                                             alt="Big Bend"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181106/in/album-72177720330099660/"
+                       title="NYC"><img src="https://live.staticflickr.com/65535/54902181106_ba91c20a1a_b.jpg"
+                                        alt="NYC"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906702839/in/album-72177720330099660/"
+                       title="New Orleans"><img src="https://live.staticflickr.com/65535/54906702839_2ffb79eb5a_b.jpg"
+                                                alt="New Orleans"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905579387/in/album-72177720330099660/"
+                       title="Caddo Lake"><img src="https://live.staticflickr.com/65535/54905579387_366d0e4b32_b.jpg"
+                                               alt="Caddo Lake"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906762715/in/album-72177720330099660/"
+                       title="Caddo Lake"><img src="https://live.staticflickr.com/65535/54906762715_eb8727c6e9_b.jpg"
+                                               alt="Caddo Lake"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181626/in/album-72177720330099660/"
+                       title="Caddo Lake"><img src="https://live.staticflickr.com/65535/54902181626_7e99d4396b_b.jpg"
+                                               alt="Caddo Lake"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181181/in/album-72177720330099660/"
+                       title="South Llano River Kayaking"><img
+                            src="https://live.staticflickr.com/65535/54902181181_ddf662c0af_b.jpg"
+                            alt="South Llano River Kayaking"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902416173/in/album-72177720330099660/"
+                       title="Colorado Bend State Park"><img
+                            src="https://live.staticflickr.com/65535/54902416173_0f53250375_b.jpg"
+                            alt="Colorado Bend State Park"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906452111/in/album-72177720330099660/"
+                       title="Colorado Bend State Park"><img
+                            src="https://live.staticflickr.com/65535/54906452111_1338dedf6a_b.jpg"
+                            alt="Colorado Bend State Park"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433544/in/album-72177720330099660/"
+                       title="Denver"><img src="https://live.staticflickr.com/65535/54902433544_6d6e7b79bf_b.jpg"
+                                           alt="Denver"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489810/in/album-72177720330099660/"
+                       title="Denver"><img src="https://live.staticflickr.com/65535/54902489810_3a78ff1b97_b.jpg"
+                                           alt="Denver"/></a>
                 </div>
-                <div>
-                    <span class="image main">
-                <img src="https://live.staticflickr.com/65535/54901311492_f0d93b1306_b.jpg" alt=""/></span>
-                    <p>asdasd</p>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna
-                        magna
-                        sed
-                        nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas
-                        laoreet
-                        massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                        Vivamus
-                        et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+            </div>
+
+            <div id="humans">
+                <h2 class="title">Humans</h2>
+                <div class="flex-container">
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906721535/in/album-72177720330099665/"
+                       title="Player"><img src="https://live.staticflickr.com/65535/54906721535_26ee6e9d8f_b.jpg"
+                                           alt="Player"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906637893/in/album-72177720330099665/"
+                       title="Lovers"><img src="https://live.staticflickr.com/65535/54906637893_5212666e1a_b.jpg"
+                                           alt="Lovers"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906411126/in/album-72177720330099665/"
+                       title="Funky Fun Food Drive Photoshoot"><img
+                            src="https://live.staticflickr.com/65535/54906411126_b46470f7ae_b.jpg"
+                            alt="Funky Fun Food Drive Photoshoot"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906410966/in/album-72177720330099665/"
+                       title="Friends Photoshoot"><img
+                            src="https://live.staticflickr.com/65535/54906410966_b00952e9a1_b.jpg"
+                            alt="Friends Photoshoot"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433604/in/album-72177720330099665/"
+                       title="friend photoshoot 1"><img
+                            src="https://live.staticflickr.com/65535/54902433604_1ae5456df0_b.jpg"
+                            alt="friend photoshoot 1"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905538237/in/album-72177720330099665/"
+                       title="Friends Photoshoot"><img
+                            src="https://live.staticflickr.com/65535/54905538237_f55ab2979f_b.jpg"
+                            alt="Friends Photoshoot"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906637678/in/album-72177720330099665/"
+                       title="Sahira Rami Engagement"><img
+                            src="https://live.staticflickr.com/65535/54906637678_d7dc9e5f82_b.jpg"
+                            alt="Sahira Rami Engagement"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181206/in/album-72177720330099665/"
+                       title="Sahira Rami Engagement"><img
+                            src="https://live.staticflickr.com/65535/54902181206_c98ff7a2a3_b.jpg"
+                            alt="Sahira Rami Engagement"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906721365/in/album-72177720330099665/"
+                       title="Sahira Rami Engagement"><img
+                            src="https://live.staticflickr.com/65535/54906721365_63292ca157_b.jpg"
+                            alt="Sahira Rami Engagement"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489850/in/album-72177720330099665/"
+                       title="Sahira Rami Engagement"><img
+                            src="https://live.staticflickr.com/65535/54902489850_62d91f2dc6_b.jpg"
+                            alt="Sahira Rami Engagement"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433574/in/album-72177720330099665/"
+                       title="Sahira Rami Engagement"><img
+                            src="https://live.staticflickr.com/65535/54902433574_f2e5d91dd9_b.jpg"
+                            alt="Sahira Rami Engagement"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906637643/in/album-72177720330099665/"
+                       title="Sahira Rami Engagement"><img
+                            src="https://live.staticflickr.com/65535/54906637643_b00585a0c7_b.jpg"
+                            alt="Sahira Rami Engagement"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905538092/in/album-72177720330099665/"
+                       title="Sahira Rami Engagement"><img
+                            src="https://live.staticflickr.com/65535/54905538092_43cc8abf60_b.jpg"
+                            alt="Sahira Rami Engagement"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906662174/in/album-72177720330099665/"
+                       title="Sahira Rami Engagement"><img
+                            src="https://live.staticflickr.com/65535/54906662174_e5b8723bd4_b.jpg"
+                            alt="Sahira Rami Engagement"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181186/in/album-72177720330099665/"
+                       title="Sahira Rami Engagement"><img
+                            src="https://live.staticflickr.com/65535/54902181186_bb491b429c_b.jpg"
+                            alt="Sahira Rami Engagement"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906637963/in/album-72177720330099665/"
+                       title="Cool Guy"><img src="https://live.staticflickr.com/65535/54906637963_a269d62e14_b.jpg"
+                                             alt="Cool Guy"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311372/in/album-72177720330099665/"
+                       title="Photomeetup"><img src="https://live.staticflickr.com/65535/54901311372_7daba0d07d_b.jpg"
+                                                alt="Photomeetup"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902416018/in/album-72177720330099665/"
+                       title="Photomeetup"><img src="https://live.staticflickr.com/65535/54902416018_6e6a79f09a_b.jpg"
+                                                alt="Photomeetup"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905538312/in/album-72177720330099665/"
+                       title="Photomeetup"><img src="https://live.staticflickr.com/65535/54905538312_33576ed65c_b.jpg"
+                                                alt="Photomeetup"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902415733/in/album-72177720330099665/"
+                       title="X: A Black Southern Experimental Music and Film Series"><img
+                            src="https://live.staticflickr.com/65535/54902415733_156ee78424_b.jpg"
+                            alt="X: A Black Southern Experimental Music and Film Series"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489635/in/album-72177720330099665/"
+                       title="X: A Black Southern Experimental Music and Film Series"><img
+                            src="https://live.staticflickr.com/65535/54902489635_4763100e92_b.jpg"
+                            alt="X: A Black Southern Experimental Music and Film Series"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906662169/in/album-72177720330099665/"
+                       title="X: A Black Southern Experimental Music and Film Series"><img
+                            src="https://live.staticflickr.com/65535/54906662169_6669d24804_b.jpg"
+                            alt="X: A Black Southern Experimental Music and Film Series"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906411191/in/album-72177720330099665/"
+                       title="Lady of the Pool"><img
+                            src="https://live.staticflickr.com/65535/54906411191_f5db7a5975_b.jpg"
+                            alt="Lady of the Pool"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489890/in/album-72177720330099665/"
+                       title="Carlos"><img src="https://live.staticflickr.com/65535/54902489890_4424f54f77_b.jpg"
+                                           alt="Carlos"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905538207/in/album-72177720330099665/"
+                       title="Carlos"><img src="https://live.staticflickr.com/65535/54905538207_fdc1c86abc_b.jpg"
+                                           alt="Carlos"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489880/in/album-72177720330099665/"
+                       title="Carlos"><img src="https://live.staticflickr.com/65535/54902489880_7281fb714b_b.jpg"
+                                           alt="Carlos"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906411001/in/album-72177720330099665/"
+                       title="Carlos"><img src="https://live.staticflickr.com/65535/54906411001_f5ae065217_b.jpg"
+                                           alt="Carlos"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902416123/in/album-72177720330099665/"
+                       title="Concert"><img src="https://live.staticflickr.com/65535/54902416123_6661be6858_b.jpg"
+                                            alt="Concert"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902490105/in/album-72177720330099665/"
+                       title="Concert"><img src="https://live.staticflickr.com/65535/54902490105_13c72dcd12_b.jpg"
+                                            alt="Concert"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311487/in/album-72177720330099665/"
+                       title="Friend"><img src="https://live.staticflickr.com/65535/54901311487_0c5b11959e_b.jpg"
+                                           alt="Friend"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906637873/in/album-72177720330099665/"
+                       title="Carlos"><img src="https://live.staticflickr.com/65535/54906637873_3dc9ffdf9c_b.jpg"
+                                           alt="Carlos"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433839/in/album-72177720330099665/"
+                       title="Carlos and Coffee"><img
+                            src="https://live.staticflickr.com/65535/54902433839_5c852c2be3_b.jpg"
+                            alt="Carlos and Coffee"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902416243/in/album-72177720330099665/"
+                       title="Carlos"><img src="https://live.staticflickr.com/65535/54902416243_12f5390ac1_b.jpg"
+                                           alt="Carlos"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311582/in/album-72177720330099665/"
+                       title="Carlos and Coffee"><img
+                            src="https://live.staticflickr.com/65535/54901311582_a69e2afb3f_b.jpg"
+                            alt="Carlos and Coffee"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905538407/in/album-72177720330099665/"
+                       title="Mom and Baby"><img src="https://live.staticflickr.com/65535/54905538407_b7f26df969_b.jpg"
+                                                 alt="Mom and Baby"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906721635/in/album-72177720330099665/"
+                       title="Mom and Baby"><img src="https://live.staticflickr.com/65535/54906721635_42237ca563_b.jpg"
+                                                 alt="Mom and Baby"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433934/in/album-72177720330099665/"
+                       title="Family Photoshoot"><img
+                            src="https://live.staticflickr.com/65535/54902433934_6b9591cacd_b.jpg"
+                            alt="Family Photoshoot"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311697/in/album-72177720330099665/"
+                       title="Family Photoshoot"><img
+                            src="https://live.staticflickr.com/65535/54901311697_bc52b3ed8d_b.jpg"
+                            alt="Family Photoshoot"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906721590/in/album-72177720330099665/"
+                       title="Mom and Baby"><img src="https://live.staticflickr.com/65535/54906721590_686ca15743_b.jpg"
+                                                 alt="Mom and Baby"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902490260/in/album-72177720330099665/"
+                       title="Family Photoshoot"><img
+                            src="https://live.staticflickr.com/65535/54902490260_0e9b428047_b.jpg"
+                            alt="Family Photoshoot"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906637793/in/album-72177720330099665/"
+                       title="Hannan"><img src="https://live.staticflickr.com/65535/54906637793_e78695c6b2_b.jpg"
+                                           alt="Hannan"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906411016/in/album-72177720330099665/"
+                       title="Hannan"><img src="https://live.staticflickr.com/65535/54906411016_ee4d03a566_b.jpg"
+                                           alt="Hannan"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905538232/in/album-72177720330099665/"
+                       title="Hannan"><img src="https://live.staticflickr.com/65535/54905538232_9e879e7979_b.jpg"
+                                           alt="Hannan"/></a>
+                </div>
+            </div>
+
+            <div id="animals">
+                <h2 class="title">Animals</h2>
+                <div class="flex-container">
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311492/in/album-72177720330099675/"
+                       title="Unknown Dog"><img src="https://live.staticflickr.com/65535/54901311492_f0d93b1306_b.jpg"
+                                                alt="Unknown Dog"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906714460/in/album-72177720330099675/"
+                       title="Sleeping Cat"><img src="https://live.staticflickr.com/65535/54906714460_6f8f05b255_b.jpg"
+                                                 alt="Sleeping Cat"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906714760/in/album-72177720330099675/"
+                       title="Lizard"><img src="https://live.staticflickr.com/65535/54906714760_56c1fed060_b.jpg"
+                                           alt="Lizard"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906655999/in/album-72177720330099675/"
+                       title="Bird"><img src="https://live.staticflickr.com/65535/54906655999_0a9119e380_b.jpg"
+                                         alt="Bird"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906714545/in/album-72177720330099675/"
+                       title="Spider"><img src="https://live.staticflickr.com/65535/54906714545_9885fcfcf4_b.jpg"
+                                           alt="Spider"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906655749/in/album-72177720330099675/"
+                       title="NYC Ducks"><img src="https://live.staticflickr.com/65535/54906655749_fa96e65c16_b.jpg"
+                                              alt="NYC Ducks"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905531497/in/album-72177720330099675/"
+                       title="Duck"><img src="https://live.staticflickr.com/65535/54905531497_d77e982993_b.jpg"
+                                         alt="Duck"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902415803/in/album-72177720330099675/"
+                       title="NYC Pigeon"><img src="https://live.staticflickr.com/65535/54902415803_ba6cc6aeda_b.jpg"
+                                               alt="NYC Pigeon"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433459/in/album-72177720330099675/"
+                       title="NYC Bird and Puddle"><img
+                            src="https://live.staticflickr.com/65535/54902433459_287117828c_b.jpg"
+                            alt="NYC Bird and Puddle"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902416393/in/album-72177720330099675/"
+                       title="Caddo Lake"><img src="https://live.staticflickr.com/65535/54902416393_9f412390db_b.jpg"
+                                               alt="Caddo Lake"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905531682/in/album-72177720330099675/"
+                       title="Dog in Bag"><img src="https://live.staticflickr.com/65535/54905531682_ddcb35486e_b.jpg"
+                                               alt="Dog in Bag"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906714620/in/album-72177720330099675/"
+                       title="Exotic Butterfly"><img
+                            src="https://live.staticflickr.com/65535/54906714620_b70fee4277_b.jpg"
+                            alt="Exotic Butterfly"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181456/in/album-72177720330099675/"
+                       title="Colorado Bend State Park"><img
+                            src="https://live.staticflickr.com/65535/54902181456_77ef3ede2e_b.jpg"
+                            alt="Colorado Bend State Park"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906631333/in/album-72177720330099675/"
+                       title="Looking Dogs"><img src="https://live.staticflickr.com/65535/54906631333_c1927577e1_b.jpg"
+                                                 alt="Looking Dogs"/></a>
+                    <a data-flickr-embed="true" class="image main" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905531582/in/album-72177720330099675/"
+                       title="Dog"><img src="https://live.staticflickr.com/65535/54905531582_55e2d130c1_b.jpg"
+                                        alt="Dog"/></a>
+                </div>
+            </div>
+
+            <div id="life">
+                <h2 class="title">Life</h2>
+                <div class="flex-container">
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433644/in/album-72177720330099670"
+                       title="Cat Man"><img src="https://live.staticflickr.com/65535/54902433644_c5de956a39_b.jpg"
+                                            alt="Cat Man"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181281/in/album-72177720330099670/"
+                       title="NoiseRot Festival"><img
+                            src="https://live.staticflickr.com/65535/54902181281_99dc23d3cc_b.jpg"
+                            alt="NoiseRot Festival"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902490055/in/album-72177720330099670/"
+                       title="Live Jazz Revelers Hall"><img
+                            src="https://live.staticflickr.com/65535/54902490055_a2fac4b033_b.jpg"
+                            alt="Live Jazz Revelers Hall"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311457/in/album-72177720330099670/"
+                       title="Live Jazz Revelers Hall Stare"><img
+                            src="https://live.staticflickr.com/65535/54901311457_412c547e76_b.jpg"
+                            alt="Live Jazz Revelers Hall Stare"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311442/in/album-72177720330099670/"
+                       title="Live Jazz Revelers Hall"><img
+                            src="https://live.staticflickr.com/65535/54901311442_df9e9c8872_b.jpg"
+                            alt="Live Jazz Revelers Hall"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902490175/in/album-72177720330099670/"
+                       title="Monk and Crowd"><img
+                            src="https://live.staticflickr.com/65535/54902490175_d9a8944a78_b.jpg"
+                            alt="Monk and Crowd"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489750/in/album-72177720330099670/"
+                       title="NYC Date"><img src="https://live.staticflickr.com/65535/54902489750_7e67b617f0_b.jpg"
+                                             alt="NYC Date"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181141/in/album-72177720330099670/"
+                       title="NYC Man and Car"><img
+                            src="https://live.staticflickr.com/65535/54902181141_60cb41f3db_b.jpg"
+                            alt="NYC Man and Car"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311172/in/album-72177720330099670/"
+                       title="NYC Picture Taker"><img
+                            src="https://live.staticflickr.com/65535/54901311172_e342c09b44_b.jpg"
+                            alt="NYC Picture Taker"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906675684/in/album-72177720330099670/"
+                       title="Positive Affirmation"><img
+                            src="https://live.staticflickr.com/65535/54906675684_70c4596314_b.jpg"
+                            alt="Positive Affirmation"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311707/in/album-72177720330099670/"
+                       title="Mexico City Overseers"><img
+                            src="https://live.staticflickr.com/65535/54901311707_7bc01be3f5_b.jpg"
+                            alt="Mexico City Overseers"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181101/in/album-72177720330099670/"
+                       title="NYC Sleeping Man"><img
+                            src="https://live.staticflickr.com/65535/54902181101_f44fa54c0c_b.jpg"
+                            alt="NYC Sleeping Man"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433484/in/album-72177720330099670/"
+                       title="NYC Lines"><img src="https://live.staticflickr.com/65535/54902433484_68d29c9a3f_b.jpg"
+                                              alt="NYC Lines"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489700/in/album-72177720330099670/"
+                       title="NYC Seats"><img src="https://live.staticflickr.com/65535/54902489700_eaf75872ef_b.jpg"
+                                              alt="NYC Seats"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433439/in/album-72177720330099670/"
+                       title="NYC Balloons"><img src="https://live.staticflickr.com/65535/54902433439_90f168cce0_b.jpg"
+                                                 alt="NYC Balloons"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906734670/in/album-72177720330099670/"
+                       title="The Bird"><img src="https://live.staticflickr.com/65535/54906734670_fb5a666154_b.jpg"
+                                             alt="The Bird"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906734660/in/album-72177720330099670/"
+                       title="Touring"><img src="https://live.staticflickr.com/65535/54906734660_ef3a7b8c26_b.jpg"
+                                            alt="Touring"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906735020/in/album-72177720330099670/"
+                       title="Buddies"><img src="https://live.staticflickr.com/65535/54906735020_804fc7e17a_b.jpg"
+                                            alt="Buddies"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906651563/in/album-72177720330099670/"
+                       title="Photographer and Graffiti"><img
+                            src="https://live.staticflickr.com/65535/54906651563_85d7af14ae_b.jpg"
+                            alt="Photographer and Graffiti"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906734955/in/album-72177720330099670/"
+                       title="Man and Dog"><img src="https://live.staticflickr.com/65535/54906734955_9d85a13a11_b.jpg"
+                                                alt="Man and Dog"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906651518/in/album-72177720330099670/"
+                       title="Boat Wait"><img src="https://live.staticflickr.com/65535/54906651518_fa2066aa68_b.jpg"
+                                              alt="Boat Wait"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906675754/in/album-72177720330099670/"
+                       title="Boat People"><img src="https://live.staticflickr.com/65535/54906675754_3e1dceddf5_b.jpg"
+                                                alt="Boat People"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906734885/in/album-72177720330099670/"
+                       title="Old Italy"><img src="https://live.staticflickr.com/65535/54906734885_bdf745bedf_b.jpg"
+                                              alt="Old Italy"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311262/in/album-72177720330099670/"
+                       title="Softball Tournament"><img
+                            src="https://live.staticflickr.com/65535/54901311262_828bd9841c_b.jpg"
+                            alt="Softball Tournament"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906652008/in/album-72177720330099670/"
+                       title="Focus Camera"><img src="https://live.staticflickr.com/65535/54906652008_ba2e33f1fd_b.jpg"
+                                                 alt="Focus Camera"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181391/in/album-72177720330099670/"
+                       title="Dallas Asian American Art Club"><img
+                            src="https://live.staticflickr.com/65535/54902181391_d64e4c0962_b.jpg"
+                            alt="Dallas Asian American Art Club"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902416273/in/album-72177720330099670/"
+                       title="Silhouette"><img src="https://live.staticflickr.com/65535/54902416273_ca9ae8c80d_b.jpg"
+                                               alt="Silhouette"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906735540/in/album-72177720330099670/"
+                       title="Parade Man"><img src="https://live.staticflickr.com/65535/54906735540_e9b6a2826b_b.jpg"
+                                               alt="Parade Man"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906675829/in/album-72177720330099670/"
+                       title="The Salt Princess: Book Release Celebration"><img
+                            src="https://live.staticflickr.com/65535/54906675829_18e956a5b1_b.jpg"
+                            alt="The Salt Princess: Book Release Celebration"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906425521/in/album-72177720330099670/"
+                       title="Dragonboat Racing Performers"><img
+                            src="https://live.staticflickr.com/65535/54906425521_2d665a80f0_b.jpg"
+                            alt="Dragonboat Racing Performers"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906735160/in/album-72177720330099670/"
+                       title="No Kings Protest"><img
+                            src="https://live.staticflickr.com/65535/54906735160_4eab1a8905_b.jpg"
+                            alt="No Kings Protest"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905551847/in/album-72177720330099670/"
+                       title="No Kings Protest"><img
+                            src="https://live.staticflickr.com/65535/54905551847_24770b5620_b.jpg"
+                            alt="No Kings Protest"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906425561/in/album-72177720330099670/"
+                       title="Bastille Day Performers"><img
+                            src="https://live.staticflickr.com/65535/54906425561_b6ef795474_b.jpg"
+                            alt="Bastille Day Performers"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906734690/in/album-72177720330099670/"
+                       title="Watching Water"><img
+                            src="https://live.staticflickr.com/65535/54906734690_c3de0114d9_b.jpg"
+                            alt="Watching Water"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906735100/in/album-72177720330099670/"
+                       title="Statefair Selfie"><img
+                            src="https://live.staticflickr.com/65535/54906735100_9dedf1195a_b.jpg"
+                            alt="Statefair Selfie"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906425126/in/album-72177720330099670/"
+                       title="Statefair Player"><img
+                            src="https://live.staticflickr.com/65535/54906425126_76ea54c6e4_b.jpg"
+                            alt="Statefair Player"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906675864/in/album-72177720330099670/"
+                       title="Statefair Winner"><img
+                            src="https://live.staticflickr.com/65535/54906675864_f77095e797_b.jpg"
+                            alt="Statefair Winner"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906675859/in/album-72177720330099670/"
+                       title="Statefair Worker"><img
+                            src="https://live.staticflickr.com/65535/54906675859_477ec9672e_b.jpg"
+                            alt="Statefair Worker"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905551742/in/album-72177720330099670/"
+                       title="Statefair Center of Attention"><img
+                            src="https://live.staticflickr.com/65535/54905551742_a4c3430e33_b.jpg"
+                            alt="Statefair Center of Attention"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905552162/in/album-72177720330099670/"
+                       title="HallowMoon Jewelry"><img
+                            src="https://live.staticflickr.com/65535/54905552162_bfa4c4e295_b.jpg"
+                            alt="HallowMoon Jewelry"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906735490/in/album-72177720330099670/"
+                       title="HallowMoon Dad and Daughter"><img
+                            src="https://live.staticflickr.com/65535/54906735490_909af9cc99_b.jpg"
+                            alt="HallowMoon Dad and Daughter"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906676214/in/album-72177720330099670/"
+                       title="HallowMoon Friends"><img
+                            src="https://live.staticflickr.com/65535/54906676214_3f69903116_b.jpg"
+                            alt="HallowMoon Friends"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905552102/in/album-72177720330099670/"
+                       title="HallowMoon Drawing Session"><img
+                            src="https://live.staticflickr.com/65535/54905552102_e4f7fff184_b.jpg"
+                            alt="HallowMoon Drawing Session"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906425486/in/album-72177720330099670/"
+                       title="HallowMoon Bike Cage"><img
+                            src="https://live.staticflickr.com/65535/54906425486_98174a5c2d_b.jpg"
+                            alt="HallowMoon Bike Cage"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906651918/in/album-72177720330099670/"
+                       title="HallowMoon Enjoyers"><img
+                            src="https://live.staticflickr.com/65535/54906651918_b795466d0d_b.jpg"
+                            alt="HallowMoon Enjoyers"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906651893/in/album-72177720330099670/"
+                       title="HallowMoon Dad"><img
+                            src="https://live.staticflickr.com/65535/54906651893_de39c3992e_b.jpg"
+                            alt="HallowMoon Dad"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906676154/in/album-72177720330099670/"
+                       title="HallowMoon Bikers"><img
+                            src="https://live.staticflickr.com/65535/54906676154_d12aaa0e31_b.jpg"
+                            alt="HallowMoon Bikers"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906425446/in/album-72177720330099670/"
+                       title="HallowMoon Lady"><img
+                            src="https://live.staticflickr.com/65535/54906425446_9f316899d6_b.jpg"
+                            alt="HallowMoon Lady"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906676129/in/album-72177720330099670/"
+                       title="HallowMoon Interaction"><img
+                            src="https://live.staticflickr.com/65535/54906676129_a5d5d02ab5_b.jpg"
+                            alt="HallowMoon Interaction"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905552022/in/album-72177720330099670/"
+                       title="HallowMoon Couple"><img
+                            src="https://live.staticflickr.com/65535/54905552022_0cb00efd63_b.jpg"
+                            alt="HallowMoon Couple"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906676089/in/album-72177720330099670/"
+                       title="HallowMoon Patrons"><img
+                            src="https://live.staticflickr.com/65535/54906676089_ba2c8663f1_b.jpg"
+                            alt="HallowMoon Patrons"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906676079/in/album-72177720330099670/"
+                       title="HallowMoon Patrons"><img
+                            src="https://live.staticflickr.com/65535/54906676079_2618f864aa_b.jpg"
+                            alt="HallowMoon Patrons"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906425336/in/album-72177720330099670/"
+                       title="HallowMoon Drawers"><img
+                            src="https://live.staticflickr.com/65535/54906425336_0d8d597b7a_b.jpg"
+                            alt="HallowMoon Drawers"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906651773/in/album-72177720330099670/"
+                       title="HallowMoon Small Dog and Witches"><img
+                            src="https://live.staticflickr.com/65535/54906651773_f056b491c5_b.jpg"
+                            alt="HallowMoon Small Dog and Witches"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906676029/in/album-72177720330099670/"
+                       title="HallowMoon Goers"><img
+                            src="https://live.staticflickr.com/65535/54906676029_ae105916c6_b.jpg"
+                            alt="HallowMoon Goers"/></a>
+                    <a data-flickr-embed="true" data-header="true" class="image main" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906735245/in/album-72177720330099670/"
+                       title="HallowMoon Raincoat"><img
+                            src="https://live.staticflickr.com/65535/54906735245_b82be3eb41_b.jpg"
+                            alt="HallowMoon Raincoat"/></a>
+                </div>
+            </div>
+
+            <div id="misc">
+                <h2 class="title">Misc</h2>
+                <div class="flex-container">
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54905593632/in/album-72177720330099655"
+                       title="Joshua Tree"><img src="https://live.staticflickr.com/65535/54905593632_b38f82428c_b.jpg"
+                                                alt="Joshua Tree"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906777540/in/album-72177720330099655/"
+                       title="Rays"><img src="https://live.staticflickr.com/65535/54906777540_8072214cfe_b.jpg"
+                                         alt="Rays"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906468131/in/album-72177720330099655/"
+                       title="Hawaii Moon"><img src="https://live.staticflickr.com/65535/54906468131_a6324efa10_b.jpg"
+                                                alt="Hawaii Moon"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902181286/in/album-72177720330099655/"
+                       title="Storm"><img src="https://live.staticflickr.com/65535/54902181286_848e9059a5_b.jpg"
+                                          alt="Storm"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906777365/in/album-72177720330099655/"
+                       title="NOLA Moon"><img src="https://live.staticflickr.com/65535/54906777365_ab07ea2eef_b.jpg"
+                                              alt="NOLA Moon"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489800/in/album-72177720330099655/"
+                       title="Total Solar Eclipse"><img
+                            src="https://live.staticflickr.com/65535/54902489800_3c46c6bcae_b.jpg"
+                            alt="Total Solar Eclipse"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902489935/in/album-72177720330099655/"
+                       title="Some Storm"><img src="https://live.staticflickr.com/65535/54902489935_ca6c24f89c_b.jpg"
+                                               alt="Some Storm"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906777515/in/album-72177720330099655/"
+                       title="Colors"><img src="https://live.staticflickr.com/65535/54906777515_f2952825f3_b.jpg"
+                                           alt="Colors"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906777370/in/album-72177720330099655/"
+                       title="Oil"><img src="https://live.staticflickr.com/65535/54906777370_db6dcb241c_b.jpg"
+                                        alt="Oil"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311477/in/album-72177720330099655/"
+                       title="Huffins Subaru Car Competition"><img
+                            src="https://live.staticflickr.com/65535/54901311477_15d067e385_b.jpg"
+                            alt="Huffins Subaru Car Competition"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902490020/in/album-72177720330099655/"
+                       title="Huffins Subaru Car Competition"><img
+                            src="https://live.staticflickr.com/65535/54902490020_b7791b1ed3_b.jpg"
+                            alt="Huffins Subaru Car Competition"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906777425/in/album-72177720330099655/"
+                       title="Huffins Subaru Car Competition"><img
+                            src="https://live.staticflickr.com/65535/54906777425_c6399ed7d6_b.jpg"
+                            alt="Huffins Subaru Car Competition"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902415763/in/album-72177720330099655/"
+                       title="Denver"><img src="https://live.staticflickr.com/65535/54902415763_02d356893b_b.jpg"
+                                           alt="Denver"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906718584/in/album-72177720330099655/"
+                       title="Car Coffee and Photoshoot"><img
+                            src="https://live.staticflickr.com/65535/54906718584_e717f59095_b.jpg"
+                            alt="Car Coffee and Photoshoot"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433869/in/album-72177720330099655/"
+                       title="Building"><img src="https://live.staticflickr.com/65535/54902433869_b231f1934e_b.jpg"
+                                             alt="Building"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54902433719/in/album-72177720330099655/"
+                       title="Decor"><img src="https://live.staticflickr.com/65535/54902433719_d43c710d51_b.jpg"
+                                          alt="Decor"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906693613/in/album-72177720330099655/"
+                       title="Algae"><img src="https://live.staticflickr.com/65535/54906693613_fb477f47ab_b.jpg"
+                                          alt="Algae"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906467826/in/album-72177720330099655/"
+                       title="Lighthouse"><img src="https://live.staticflickr.com/65535/54906467826_573d6db19f_b.jpg"
+                                               alt="Lighthouse"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906718369/in/album-72177720330099655/"
+                       title="Algae"><img src="https://live.staticflickr.com/65535/54906718369_6f0bd9637d_b.jpg"
+                                          alt="Algae"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54901311092/in/album-72177720330099655/"
+                       title="Algae"><img src="https://live.staticflickr.com/65535/54901311092_6856f9a761_b.jpg"
+                                          alt="Algae"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906718354/in/album-72177720330099655/"
+                       title="Sandals"><img src="https://live.staticflickr.com/65535/54906718354_6bffa95406_b.jpg"
+                                            alt="Sandals"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906467771/in/album-72177720330099655/"
+                       title="Algae"><img src="https://live.staticflickr.com/65535/54906467771_c9d4f8854a_b.jpg"
+                                          alt="Algae"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906777610/in/album-72177720330099655/"
+                       title="Chill"><img src="https://live.staticflickr.com/65535/54906777610_5e07aeaf2e_b.jpg"
+                                          alt="Chill"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906777475/in/album-72177720330099655/"
+                       title="HallowMoon Buns"><img
+                            src="https://live.staticflickr.com/65535/54906777475_82feb8c611_b.jpg"
+                            alt="HallowMoon Buns"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906718514/in/album-72177720330099655/"
+                       title="HallowMoon Jewelry"><img
+                            src="https://live.staticflickr.com/65535/54906718514_2534d8a6c7_b.jpg"
+                            alt="HallowMoon Jewelry"/></a>
+                    <a class="image main" data-flickr-embed="true" data-header="true" data-footer="true"
+                       data-context="true"
+                       href="https://www.flickr.com/photos/203782998@N04/54906467991/in/album-72177720330099655/"
+                       title="HallowMoon Fun"><img
+                            src="https://live.staticflickr.com/65535/54906467991_1c0b6c4309_b.jpg"
+                            alt="HallowMoon Fun"/></a>
                 </div>
             </div>
         </article>
 
         <!-- About -->
-        <article id="about">
+        <!--<article id="about">
             <h2 class="major">About</h2>
             <span class="image main"><img src="images/pic03.jpg" alt=""/></span>
             <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend
                 sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam.
                 Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum
                 primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
-        </article>
+        </article>-->
 
         <!-- Contact -->
         <article id="contact">
-            <h2 class="major">Contact</h2>
+            <div class="fixed-element" style="background-color: rgba(27, 31, 34, 1);">
+                <h2 class="major">Contact</h2>
+                <div class="close" onclick="onClose()"></div>
+                <p>
+                    If you are not able to send an email via this form, please send it manually to chunqlin@icloud.com
+                </p>
+            </div>
             <form method="post" action="#">
                 <div class="fields">
                     <div class="field half">
@@ -163,20 +1111,21 @@
                     </div>
                 </div>
                 <ul class="actions">
-                    <li><input type="submit" value="Send Message" class="primary"/></li>
+                    <li><input type="submit" onclick="sendEmailWithMailto()" value="Send Message" class="primary"/></li>
                     <li><input type="reset" value="Reset"/></li>
                 </ul>
             </form>
             <ul class="icons">
-                <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                <!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>TODO-->
+                <li><a href="https://www.instagram.com/cql5991?igsh=MTU1N21idnc4dTdkdA%3D%3D&utm_source=qr"
+                       class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://www.flickr.com/photos/203782998@N04/albums/" class="icon brands fa-flickr"><span
+                        class="label">Flickr</span></a></li>
             </ul>
         </article>
 
         <!-- Elements -->
-        <article id="elements">
+        <!--<article id="elements">
             <h2 class="major">Elements</h2>
 
             <section>
@@ -422,14 +1371,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
                 </form>
             </section>
 
-        </article>
+        </article>-->
 
     </div>
 
     <!-- Footer -->
-    <footer id="footer">
+    <!--<footer id="footer">
         <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-    </footer>
+    </footer>-->
 
 </div>
 
